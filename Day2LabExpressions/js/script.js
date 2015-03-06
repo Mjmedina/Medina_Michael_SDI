@@ -32,17 +32,29 @@ console.log(phrase3, sparkyPizza, phrase4);
 
 // Total and average amount of groceries over a 5 week period.
 
-var week1 = 80
-var week2 = 90
-var week3 = 100
-var week4 = 90
-var week5 = 80
+var week1 = 80;
+var week2 = 90;
+var week3 = 100;
+var week4 = 90;
+var week5 = 80;
 
-var totalGroceries = week1 + week2 + week3 + week4 + week5
-var totalWeeks = 5
+var totalGroceries = week1 + week2 + week3 + week4 + week5;
+var totalWeeks = 5;
 var average = (week1 + week2 + week3 + week4 + week5) /totalWeeks;
-var phrase5 = "You have spent a total of $"
-var phrase6= "on groceries over 5 weeks. That is an average of $"
-var phrase7= "per week."
+var phrase5 = "You have spent a total of $";
+var phrase6= "on groceries over 5 weeks. That is an average of $";
+var phrase7= "per week.";
 console.log(phrase5, totalGroceries,phrase6, average, phrase7 );
+
+// Discounts on an item with or without tax.
+
+var originalPrice = 100;
+var discount = 20/100;
+var item = "Ironman Helmet";
+var salesTax = 6/100;
+
+var withTax = (originalPrice * discount) * salesTax;
+var withoutTax = originalPrice * salesTax;
+console.log("Your", item, "was originally $", originalPrice, ",but after a", discount, "% discount, " +
+"it is now $", withoutTax, "without tax, and $", withTax, "with tax.");
 
