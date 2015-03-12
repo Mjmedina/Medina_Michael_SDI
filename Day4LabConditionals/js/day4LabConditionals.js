@@ -24,6 +24,11 @@ Assignment
  else{
      console.log("You need to fill your tank!");
  }
+
+
+
+
+
  //Create user login system with matching name and password.
  var userName = prompt("Please enter your username");
  var password = prompt("Please enter your password");
@@ -37,6 +42,9 @@ Assignment
  }else if(userName != "Tony"){
      console.log("Access Denied because you forgot your username");
  }
+
+
+
 
 
 

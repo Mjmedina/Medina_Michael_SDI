@@ -42,7 +42,7 @@ var orangesPicked = [13, 350, 1000, 600];
 
 //How many oranges did we pick in total?
 var totalOranges = orangesPicked[0] + orangesPicked[1]+ orangesPicked[2]+orangesPicked[3];
-console.log("The total number or oranges picked is "+totalOranges+ ".");
+console.log("The total number of oranges picked is "+totalOranges+ ".");
 
 var averageOranges = totalOranges/3;
 console.log("The average number of oranges picked per day is "+averageOranges+".");
