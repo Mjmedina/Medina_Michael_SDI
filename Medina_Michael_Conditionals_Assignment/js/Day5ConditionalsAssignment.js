@@ -13,10 +13,7 @@ Day 5 Conditionals Assignment
 
  var spelunkyPlayed = prompt("We are going to figure out if you are addicted to Spelunky.\nHow many hours did you play Spelunky today?");
 
- //var days = ["Monday","Tuesday","Wednesday","Thursday";"Friday"];
-
-
-
+// var days = ["Monday","Tuesday","Wednesday","Thursday","Friday"];
 
  if (spelunkyPlayed === "" || isNaN(spelunkyPlayed))
  //Validating that user actually typed something in the box. Because users are often dumb.
@@ -24,8 +21,7 @@ Day 5 Conditionals Assignment
  {
      spelunkyPlayed = prompt("You can't run from your problems. Answer the question.\nNow then, how many hours did you play Spelunky?");
  }
-
- //Stuff
+ //Responses to user input
 
  if (spelunkyPlayed > 6){
      console.log("You have problems. Get off the Spelunky. Go outside. Talk to people. Just get off Spelunky.");
@@ -38,7 +34,7 @@ Day 5 Conditionals Assignment
  }
 
 
-
+//Get the average for each day.
 var questionArray =[];
 
  //For loop to save user input in the array.
