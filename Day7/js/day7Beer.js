@@ -11,8 +11,8 @@ Assignment
  // Code the song 99 bottles of beer on the wall
 
 
- //Basic structure of "for loop"
- // for(var i=0; condition to test; increment of change){}
+ //                                                  Basic structure of "for loop"
+ //                                    for(var i=0; condition to test; increment of change){}
 
 
  for(var i=99; i>0; i--) {

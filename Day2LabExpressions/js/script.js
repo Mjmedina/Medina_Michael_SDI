@@ -37,10 +37,10 @@ console.log("You have spent a total of $", totalGroceries,"on groceries over 5 w
 
 var originalPrice = 100;
 var discount = 20;
-var appliedDiscount = discount / 100
+var appliedDiscount = discount / 100;
 var item = "Ironman Helmet";
 var salesTax = 6;
-var appliedSalesTax = salesTax /100
+var appliedSalesTax = salesTax /100;
 
 var withTax = (originalPrice * appliedDiscount) * appliedSalesTax;
 var withoutTax = originalPrice * appliedSalesTax;
